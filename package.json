@@ -1,0 +1,29 @@
+{
+  "name": "@mfelibs/vue-plugin-exposure",
+  "version": "0.0.1",
+  "description": "vue插件 曝光组件 使用intersection-observer",
+  "main": "lib/index.cjs.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "marax dev",
+    "build": "marax lib",
+    "build:demo": "marax build",
+    "next": "git add . && git commit -m 'next' && npm version prerelease && cnpm publish --tag next",
+    "patch": "git add . && git commit -m 'patch' && npm version patch && cnpm publish",
+    "postpublish": "node ./node_modules/webpack-marauder/hook/postpublish.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1",
+    "webpack-marauder": "^1.12.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT",
+  "author": "FengZihao <zihao5@staff.sina.com.cn>",
+  "repository": "ssh://git@gitlab.weibo.cn:2222/SINA_MFE_COMPONENTS/vue-plugin-exposure.git",
+  "dependencies": {
+    "intersection-observer": "^0.5.1"
+  }
+}
