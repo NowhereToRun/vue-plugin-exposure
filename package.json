@@ -1,6 +1,6 @@
 {
   "name": "@mfelibs/vue-plugin-exposure",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "vue插件 曝光组件 使用intersection-observer",
   "main": "lib/index.cjs.js",
   "module": "src/index.js",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "typescript": "^3.0.1",
+    "vue": "^2.6.6",
     "webpack-marauder": "^1.12.2"
   },
   "engines": {

@@ -9083,6 +9083,10 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.8.2"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
 
+vue@^2.6.6:
+  version "2.6.6"
+  resolved "http://registry.npm.taobao.org/vue/download/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
+
 w3c-hr-time@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/w3c-hr-time/download/w3c-hr-time-1.0.1.tgz#82ac2bff63d950ea9e3189a58a65625fedf19045"
