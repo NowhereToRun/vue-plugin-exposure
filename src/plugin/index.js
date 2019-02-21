@@ -47,7 +47,7 @@ export default {
         for (let i = 0, len = entries.length; i < len; i++) {
           let entry = entries[i];
           if (entry.isIntersecting) {
-            console.log(entry);
+            // console.log(entry);
             let cbId = entry.target.dataset.cbid;
             if (expSet.has(cbId)) {
               try {
