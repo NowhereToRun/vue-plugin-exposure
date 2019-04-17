@@ -2,9 +2,9 @@
 vue插件 曝光组件 使用intersection-observer  
 
 
-#### demo（demo 仍然走 unpkg 服务）
+#### demo  
 
-<a href="http://unpkg.smfe.sina.cn/@mfelibs/vue-plugin-exposure/dist/demo/index.html" target="blank">http://unpkg.smfe.sina.cn/@mfelibs/vue-plugin-exposure/dist/demo/index.html</a>
+<a href="https://nowheretorun.github.io/vue-plugin-exposure/dist/demo/" target="blank">Github Page Demo</a>
 
 
 ## cmd 调用方式：
