@@ -1,6 +1,6 @@
-# @mfelibs/vue-plugin-exposure
+# vue-plugin-exposure  
+vue插件 曝光组件 使用intersection-observer  
 
-一句话介绍项目摘要。
 
 #### demo（demo 仍然走 unpkg 服务）
 
@@ -12,13 +12,13 @@
 ### 安装
 
 ```bash
-yarn add @mfelibs/vue-plugin-exposure --save
+yarn add vue-plugin-exposure --save
 ```
 
 通过 `imort` 导入
 
 ```javascript
-import Exposure from '@mfelibs/vue-plugin-exposure';
+import Exposure from 'vue-plugin-exposure';
 ```
 
 ### 使用
@@ -36,9 +36,6 @@ const config = {
   // root: null,
   // rootMargin: '0px 0px -50px 0px'
 };
-
-// 超级页体系
-SPComponent.use(Exposure, config);
 
 // or
 Vue.use(Exposure, config);
