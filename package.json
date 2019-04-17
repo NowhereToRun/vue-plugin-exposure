@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-exposure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue插件 曝光组件 使用intersection-observer",
   "main": "lib/index.cjs.js",
   "module": "src/index.js",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "author": "NowhereToRun <452242153@qq.com>",
-  "repository": "ssh://git@gitlab.weibo.cn:2222/SINA_MFE_COMPONENTS/vue-plugin-exposure.git",
+  "repository": "ssh://git@github.com:NowhereToRun/vue-plugin-exposure.git",
   "dependencies": {
     "intersection-observer": "^0.5.1"
   }
